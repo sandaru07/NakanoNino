@@ -14,10 +14,10 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
-  let runnya = `┏━━━ꕥ〔 *RUNTIME BOT* 〕ꕥ━⬣
-┃✾ ⏲️ Waktu: ${time} WIB
-┃✾ 💌 Aktif Selama : ${uptime}
-┃✾ 🌹 Tag : ${name}
+  let runnya = `┏━━━〔 *RUNTIME BOT* 〕━⬣
+┃✾ ⏲️ T I M E: ${time} WIB
+┃✾ 💌 U P T I M E : ${uptime}
+┃✾ 🌹 U S E R : ${name}
 ┗━━━━━━ꕥ`
 	let _muptime
     if (process.send) {
@@ -28,15 +28,15 @@ const time = moment.tz('Asia/Jakarta').format('HH')
       }) * 1000
     }
     let muptime = clockString(_muptime)
- await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, intro, [['🥞MENU','.listmenu']], m, {
+ await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, intro, [['MENU','.listmenu']], m, {
         contextInfo: {
             externalAdReply: {
                 mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        title: `💌  Owner : ${ohari} Hari ${ojam} Hours ${onet} Minutes ${detek} Second`,
                         body: `Subscribe YT My Owner`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
+                        thumbnail: await (await fetch(`https://telegra.ph/file/fb50d4b5a1994678e5f87.jpg`)).buffer(),
                         sourceUrl: 'https://youtu.be/ChataOfc-'
             }
         }
