@@ -69,21 +69,21 @@ const time = moment.tz('Asia/Jakarta').format('HH')
       }) * 1000
     }
     let muptime = clockString(_muptime)
- await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['🧑OWNER','.owner']], m, {
-  'document':{'url':'https://youtu.be/ChataOfc-'},
+ await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['OWNER','.owner']], m, {
+  'document':{'url':'https://youtube.com'},
 'mimetype':global.dpdf,
 'fileName':'「 ᴏᴋᴛᴀ 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/ChataOfc-',
+                        sourceUrl: 'https://youtu.be/SANDARU-YT',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴏᴋᴛᴀ`,
-                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        description: `✅`,
+                        title: `💌 My Owner: ${ohari} Hari ${ojam} Hours ${onet} Minutes ${detek} Second`,
                         body: `⚘ by ᴏᴋᴛᴀ`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/ChataOfc-'
+                        mediaUrl: 'https://youtube.com/SANDARU-YT'
                         
                       }}
 })
