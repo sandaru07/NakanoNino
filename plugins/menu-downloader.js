@@ -64,7 +64,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, `${wish()} ${name}`,runnya + '\n\n' + wm + '\n\n' + botdate, thumb, [['🧑OWNER','.owner']], m, {
-  'document':{'url':'https://youtu.be/ChataOfc-'},
+  'document':{'url':'https://youtu.be/SANDARU-YT'},
 'mimetype':global.dpdf,
 'fileName':'「 ᴏᴋᴛᴀ 」',
 'fileLength':fsizedoc,
@@ -73,11 +73,11 @@ const time = moment.tz('Asia/Jakarta').format('HH')
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         sourceUrl: 'https://youtu.be/ChataOfc-',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴏᴋᴛᴀ`,
-                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴏᴋᴛᴀ`,          previewType: 0,
+                        description: `S A N D A R U`,
+                        title: `💌 My Owner: ${ohari} Hari ${ojam} Hour ${onet} Minutes ${detek} Second`,
+                        body: `©`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/ChataOfc-'
+                        mediaUrl: 'https://youtu.be/SANDARU-YT'
                         
                       }}
 })
